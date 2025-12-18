@@ -40,7 +40,7 @@ Részösszeg: `7p`
 - `1x2p` Adatok megjelenítése DGV-ben  
 
 ####User Interface , Datagridview és Tábla megjelenítése Listbox-ban.
-![forms1.gif](./Forms1.mp4)
+![forms1.gif](./Forms1.gif)
 
 
 ### Adatkötés BindingSource-on keresztül
@@ -91,3 +91,4 @@ Id alapon törölhetjük egy termék teljes adatsorát.
 Részösszeg: `13p`
 
 ## Összesen 52p
+
