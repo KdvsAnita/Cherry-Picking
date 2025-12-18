@@ -15,7 +15,7 @@ scaffold.txt
 
 ##### Saját Adatbázis
 
-![Database](./Database.png)
+![Database](./adatbazis.mp4)
 - `3x1p` Az alkalmazásban használt táblánk (Hangszer, Kategoria, Szallito)
 - `1x1p` Az adatbázis tartalmaz Constraint-eket (min 2)
 - `1x2p` Az adatbázis saját Azure SQL szerveren van
@@ -40,7 +40,7 @@ Részösszeg: `7p`
 - `1x2p` Adatok megjelenítése DGV-ben  
 
 ####User Interface , Datagridview és Tábla megjelenítése Listbox-ban.
-![forms1.gif](./Forms1.gif)
+![forms1.gif](./Forms1.mp4)
 
 
 ### Adatkötés BindingSource-on keresztül
@@ -59,7 +59,7 @@ Részösszeg: `7p`
 
 
 ####<Új rekord és rekord törlés>
-![recordnewdelete](./newdelete.gif)
+![recordnewdelete](./newdelete.mp4)
 
 ### Egyéb, extra
 - `2x1p` Scaffold-DbContext használata (ASP.Net és WIndows Forms)
@@ -73,21 +73,21 @@ Részösszeg: `32p`
 
 ##### API végpontok
 
-![swagger](./swagger.png)
 - `1x3p` Teljes SQL tábla adatainak szolgáltatása API végponton keresztül
 - `1x2p` SQL tábla egy választható rekordjának szolgáltatása API végponton keresztül (Products)
 - `1x3p` SQL tábla egy választható rekordjának törlése
 - `1x5p` Új rekord felvétele HttpPost metóduson keresztül SQL táblába
 
 ####<API Végpontok>
-![GET](./get.gif)
+![GET](./get.mp4)
 Megjelenítjük a lista összes adatát, a kulcsok helyére refferálunk a megfelelő Kategória és Szállító nevével.
-![GETID](./getid.gif)
+![GETID](./getid.mp4)
 Id keresés alapon bekérjük az id-t és kiírjuk a talált Termék adatait, amennyiben van ilyen id.
-![Post](./post.gif)
+![Post](./post.mp4)
 Új terméket viszünk fel validációval.
-![DELETE](./delete.gif)
+![DELETE](./delete.mp4)
 Id alapon törölhetjük egy termék teljes adatsorát.
 
 Részösszeg: `13p`
+
 ## Összesen 52p
