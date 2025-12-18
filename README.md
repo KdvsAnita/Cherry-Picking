@@ -16,7 +16,7 @@ scaffold.txt
 
 ##### Saját Adatbázis
 
-![Database](./Database.png)
+![Database](./adatbazis.mp4)
 - `3x1p` Az alkalmazásban használt táblánk (Hangszer, Kategoria, Szallito)
 - `1x1p` Az adatbázis tartalmaz Constraint-eket (min 2)
 - `1x2p` Az adatbázis saját Azure SQL szerveren van
