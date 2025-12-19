@@ -79,18 +79,19 @@ Részösszeg: `32p`
 - `1x5p` Új rekord felvétele HttpPost metóduson keresztül SQL táblába
 
 ####<API Végpontok>
+Megjelenítjük a lista összes adatát
 ![GET](./get.gif)
-Megjelenítjük a lista összes adatát, a kulcsok helyére refferálunk a megfelelő Kategória és Szállító nevével.
+Id keresés alapon bekérjük az id-t és kiírjuk a talált Szallito adatait
 ![GETID](./getid.gif)
-Id keresés alapon bekérjük az id-t és kiírjuk a talált Termék adatait, amennyiben van ilyen id.
+Új Szallitot viszünk fel.
 ![Post](./post.gif)
-Új terméket viszünk fel validációval.
-![DELETE](./delete.gif)
 Id alapon törölhetjük egy termék teljes adatsorát.
+![DELETE](./delete.gif)
 
 Részösszeg: `13p`
 
 ## Összesen 52p
+
 
 
 
