@@ -29,7 +29,7 @@ Részösszeg: `7p`
 
 ### User Interface
 - `1x2p` Kilépés csak megerősítő kérdés után lehetséges.  
-- `2x2p` Olyan alkalmazás elrendezés, melyben gombok lenyomására UserControl-ok kerülnek elhelyezésre egy Panel vezérlőben, teljesen kitöltve azt. (Instruments, Modify)
+- `2x2p` Olyan alkalmazás elrendezés, melyben gombok lenyomására UserControl-ok kerülnek elhelyezésre egy Panel vezérlőben, teljesen kitöltve azt. (Instruments Filter, Modify)
 
 ### Tábla adatainak megjelenítése ListBox-ban
 - `1x2p` Adatok megjelenítése ListBox-ban
@@ -47,7 +47,7 @@ Részösszeg: `7p`
 - `1x2p` Működő BindingSource  
 
 ### Új rekord rögzítése
-- `1x2p` Master-detail reláció detail táblájába új rekord rögzítése (Products details "Kategoria","Szallito" táblák betöltése Include-al valósult meg)  
+- `1x2p` Master-detail reláció detail táblájába új rekord rögzítése (Hangszer details "Kategoria","Szallito" táblák betöltése Include-al valósult meg)  
 - `1x1p` Nem kulcs mező is felvéve (Ar, KeszletDb)  
 - `1x2p` Ellenőrzéshez kötött adatfelvitel (String.IsNullOrEmpty stb.)
 - `1x2p` Legördülő dobozon (ComboBox) keresztül beállítható idegen kulcs is 
@@ -74,7 +74,7 @@ Részösszeg: `32p`
 ##### API végpontok
 
 - `1x3p` Teljes SQL tábla adatainak szolgáltatása API végponton keresztül
-- `1x2p` SQL tábla egy választható rekordjának szolgáltatása API végponton keresztül (Products)
+- `1x2p` SQL tábla egy választható rekordjának szolgáltatása API végponton keresztül 
 - `1x3p` SQL tábla egy választható rekordjának törlése
 - `1x5p` Új rekord felvétele HttpPost metóduson keresztül SQL táblába
 
@@ -92,13 +92,14 @@ Id keresés alapon bekérjük az id-t és kiírjuk a talált Szallito adatait
 
 ![Post](./post.gif)
 
-Id alapon törölhetjük egy termék teljes adatsorát.
+Id alapon törölhetjük egy szállító teljes adatsorát.
 
 ![DELETE](./delete.gif)
 
 Részösszeg: `13p`
 
 ## Összesen 52p
+
 
 
 
